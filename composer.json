@@ -1,0 +1,40 @@
+{
+    "name": "webroots/custom-filters",
+    "description": "Filters for twig",
+    "type": "craft-plugin",
+    "version": "1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "custom filters"
+    ],
+    "support": {
+        "docs": "https://github.com/arnogregorian/custom-filters/blob/master/README.md",
+        "issues": "https://github.com/arnogregorian/custom-filters/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arno Gregorian",
+            "homepage": "https://webroots.nl"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "webroots\\customfilters\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Custom filters",
+        "handle": "custom-filters",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/arnogregorian/custom-filters/master/CHANGELOG.md",
+        "class": "webroots\\customfilters\\CustomFilters"
+    }
+}
